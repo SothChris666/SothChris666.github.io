@@ -1,0 +1,91 @@
+.main {
+ width: 980px;
+ height: 455px;
+ margin-top: 10px;
+ margin-left: 220px;
+}
+
+.focus {
+ float: left;
+ width: 720px;
+ height: 455px;
+}
+
+.newsflash {
+ float: right;
+ width: 250px;
+ height: 455px;
+ background-color: #FFF;
+}
+
+.news {
+ height: 165px;
+ border: 1px solid rgb(12, 232, 154);
+ border-bottom: 1px solid rgba(12, 232, 154,.5);
+}
+
+.lifeservice {
+ overflow: hidden;
+ height: 210px;
+ border: 1px solid rgb(12, 232, 154);
+ border-top: 0;
+}
+
+.bargain {
+ margin-top: 2px;
+}
+
+.news-hd {
+ height: 35px;
+ padding-left: 15px;
+ border-bottom: 1px dashed rgb(12, 232, 154);
+ line-height: 36px;
+}
+
+.news-hd h5 {
+ float: left;
+ color: #1C1E23;
+ font-size: 14px;
+}
+
+.news-hd .more {
+ float: right;
+ padding-right: 20px;
+ color: #1C1E23;
+ font-weight: 700;
+}
+
+.news-hd .more::after {
+ position: absolute;
+ top: 0;
+ right: 4px;
+ color: #1C1E23;
+ font-family: 'icomoon';
+ content: '\e930';
+}
+
+.news-bd {
+ padding: 5px 0 0 15px;
+}
+
+.news-bd ul li {
+ height: 24px;
+ line-height: 24px;
+}
+
+.news-bd ul li a {
+ color: #1C1E23;
+ font-size: 12px;
+}
+
+.lifeservice ul {
+ width: 252px;
+}
+
+.lifeservice ul li {
+ float: left;
+ width: 63px;
+ height: 72px;
+ border-right: 1px solid rgba(12, 232, 154,.5);
+ border-bottom: 1px solid rgba(12, 232, 154,.5);
+}
