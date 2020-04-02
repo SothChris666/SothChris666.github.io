@@ -1,0 +1,61 @@
+@font-face {
+ font-style: normal;
+ font-weight: normal;
+ font-family: 'icomoon';
+
+ src: url('../fonts/icomoon.eot?tomleg');
+ src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+ url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+ url('../fonts/icomoon.woff?tomleg') format('woff'),
+ url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+ font-display: block;
+}
+
+.arrow-icon::before {
+ margin-right: 4px;
+ color: #FFF;
+ font-family: icomoon;
+ content: "\e92e";
+}
+
+.icon-user::before {
+ margin-right: 4px;
+ color: #FFF;
+ font-family: icomoon;
+ content: "\ea00";
+}
+
+.icon-map::before {
+ margin-right: 4px;
+ color: #FFF;
+ font-family: icomoon;
+ content: "\e993";
+}
+
+.icon-link::before {
+ margin-right: 4px;
+ color: #FFF;
+ font-family: icomoon;
+ content: "\e98a";
+}
+
+.icon-pen-tool::before {
+ margin-right: 4px;
+ color: #FFF;
+ font-family: icomoon;
+ content: "\e9b0";
+}
+
+.icon-grid::before {
+ color: #FFF;
+ font-size: 14px;
+ font-family: 'icomoon';
+ content: '\e979';
+}
+
+.icon-more-horizontal::before {
+ color: #FFF;
+ font-size: 14px;
+ font-family: 'icomoon';
+ content: '\e995';
+}

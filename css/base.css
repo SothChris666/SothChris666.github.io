@@ -1,0 +1,102 @@
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+/* input提示颜色 */
+input::-webkit-input-placeholder {
+ color: #1C1E26;
+}
+
+input::-moz-placeholder {
+ /* Mozilla Firefox 19+ */
+ color: #1C1E26;
+}
+
+input:-moz-placeholder {
+ /* Mozilla Firefox 4 to 18 */
+ color: #1C1E26;
+}
+
+input:-ms-input-placeholder {
+ /* Internet Explorer 10-11 */
+ color: #1C1E26;
+}
+
+a {
+ text-decoration: none;
+}
+
+em,
+i {
+ font-style: normal;
+}
+
+li {
+ list-style: none;
+}
+
+img {
+ /* 照顾低版本浏览器，如果图片加链接出现边框的问题 */
+ border: 0;
+ /* 取消图片底部有空白缝隙的问题 */
+ vertical-align: middle;
+}
+
+button,
+input,
+textarea {
+ /* 按钮输入框字体 */
+ border: 0;
+ outline: none;
+ font-family: Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+ resize: none;
+}
+
+button {
+ cursor: pointer;
+}
+
+body {
+ font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+
+ -webkit-font-smoothing: antialiased; /*抗锯齿*/
+ /* 在移动设备上如手机和平板横屏会导致字体变大， */
+ -webkit-text-size-adjust: 100%;
+}
+
+table {
+ border-spacing: 0;
+ border-collapse: collapse;
+}
+
+/* 清除浮动 */
+.clearfix:before,
+.clearfix:after {
+ display: table;
+ content: "";
+}
+
+.clearfix:after {
+ clear: both;
+}
